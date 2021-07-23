@@ -1,0 +1,693 @@
+============> Received from client:	SMSPXE	7/23/2021 1:53:04 PM	3012 (0x0BC4)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 1 ID: B4460E01
+ Sec Since Boot: 0 Client IP: 000.000.000.000 Your IP: 000.000.000.000 Server IP: 000.000.000.000 Relay Agent IP: 010.215.000.002
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 1=Discover
+  Type=57 Max Msg Size: 05c0
+  Type=55 Param Request List: 0102030405060c0d0f111216171c28292a2b3233363a3b3c4243618081828384858687
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=94 UNDI: 010310
+  Type=93 Client Arch: EFI BC
+  Type=60 ClassId: PXEClient:Arch:00007:UNDI:003016	SMSPXE	7/23/2021 1:53:04 PM	3012 (0x0BC4)
+00:50:56:90:F5:92, 8AC01042-19A6-D797-9A71-91B156B192C2: Not serviced.	SMSPXE	7/23/2021 1:53:04 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:53:08 PM	3012 (0x0BC4)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 1 ID: B4460E01
+ Sec Since Boot: 4 Client IP: 000.000.000.000 Your IP: 000.000.000.000 Server IP: 000.000.000.000 Relay Agent IP: 010.215.000.002
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 1=Discover
+  Type=57 Max Msg Size: 05c0
+  Type=55 Param Request List: 0102030405060c0d0f111216171c28292a2b3233363a3b3c4243618081828384858687
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=94 UNDI: 010310
+  Type=93 Client Arch: EFI BC
+  Type=60 ClassId: PXEClient:Arch:00007:UNDI:003016	SMSPXE	7/23/2021 1:53:08 PM	3012 (0x0BC4)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+Client lookup reply: <ClientIDReply><Identification Unknown="0" DuplicateSMBIOS="0" DuplicateMACAddress="0" ItemKey="16779571" ServerName=""><Machine><ClientID/><NetbiosName/></Machine></Identification></ClientIDReply>
+	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+00:50:56:90:F5:92, 8AC01042-19A6-D797-9A71-91B156B192C2: Device is in the database.	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+Request using architecture 9.	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+Client boot action reply: <ClientIDReply><Identification Unknown="0" DuplicateSMBIOS="0" DuplicateMACAddress="0" ItemKey="16779571" ServerName=""><Machine><ClientID>GUID:0dfcfb13-7c34-4892-ab7f-47fd9084c340</ClientID><NetbiosName/></Machine></Identification><PXEBootAction LastPXEAdvertisementID="" LastPXEAdvertisementTime="" OfferID="AQ120189" OfferIDTime="6/9/2021 3:01:00 PM" PkgID="AQ100195" PackageVersion="" PackagePath="http://server.domain.com/SMS_DP_SMSPKG$/AQ1000C9" BootImageID="AQ1000C9" Mandatory="0"/></ClientIDReply>
+	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+00:50:56:90:F5:92, 8AC01042-19A6-D797-9A71-91B156B192C2: found optional advertisement AQ120189	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: B4460E01
+ Sec Since Boot: 4 Client IP: 000.000.000.000 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 010.215.000.002
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 2=Offer
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient	SMSPXE	7/23/2021 1:53:08 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:53:16 PM	3012 (0x0BC4)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 1 ID: B4460E01
+ Sec Since Boot: 4 Client IP: 000.000.000.000 Your IP: 000.000.000.000 Server IP: 000.000.000.000 Relay Agent IP: 010.215.000.002
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 3=Request
+  Type=54 Svr id: 010.000.050.169
+  Type=50 Requested IP: 010.215.001.210
+  Type=57 Max Msg Size: ff00
+  Type=55 Param Request List: 0102030405060c0d0f111216171c28292a2b3233363a3b3c4243618081828384858687
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=94 UNDI: 010310
+  Type=93 Client Arch: EFI BC
+  Type=60 ClassId: PXEClient:Arch:00007:UNDI:003016	SMSPXE	7/23/2021 1:53:16 PM	3012 (0x0BC4)
+============> Received from client:	SMSPXE	7/23/2021 1:53:16 PM	3012 (0x0BC4)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: CB18C6E2
+ Sec Since Boot: 0 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 000.000.000.000 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 3=Request
+  Type=55 Param Request List: 0102030405060c0d0f111216171c28292a2b3233363a3b3c4243618081828384858687
+  Type=57 Max Msg Size: 05c0
+  Type=60 ClassId: PXEClient:Arch:00007:UNDI:003016
+  Type=93 Client Arch: EFI BC
+  Type=94 UNDI: 010310
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2	SMSPXE	7/23/2021 1:53:16 PM	3012 (0x0BC4)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+Request using architecture 9.	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+Client boot action reply: <ClientIDReply><Identification Unknown="0" DuplicateSMBIOS="0" DuplicateMACAddress="0" ItemKey="16779571" ServerName=""><Machine><ClientID>GUID:0dfcfb13-7c34-4892-ab7f-47fd9084c340</ClientID><NetbiosName/></Machine></Identification><PXEBootAction LastPXEAdvertisementID="" LastPXEAdvertisementTime="" OfferID="AQ120189" OfferIDTime="6/9/2021 3:01:00 PM" PkgID="AQ100195" PackageVersion="" PackagePath="http://server.domain.com/SMS_DP_SMSPKG$/AQ1000C9" BootImageID="AQ1000C9" Mandatory="0"/></ClientIDReply>
+	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+00:50:56:90:F5:92, 8AC01042-19A6-D797-9A71-91B156B192C2: found optional advertisement AQ120189	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:4011]) Len:430	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: CB18C6E2
+ Sec Since Boot: 0 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\wdsmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=250 0201010504000000d903020014040200ba062c436f6e66696775726174696f6e204d616e61676572206973206c6f6f6b696e6720666f7220706f6c6963792e0b0101
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:53:16 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:53:18 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:53:18 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:53:18 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:53:18 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:53:18 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:18 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:18 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:53:18 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:53:18 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:53:18 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:53:39 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:53:39 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:53:39 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:53:39 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:53:39 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:39 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:53:39 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:53:39 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:53:39 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:53:39 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:54:00 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:54:00 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:54:00 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:54:00 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:54:00 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:54:00 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:54:00 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:54:00 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:54:00 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:54:00 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:54:21 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:54:21 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:54:21 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:54:21 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:54:21 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:54:21 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:54:21 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:54:21 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:54:21 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:54:21 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:54:42 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:54:42 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:54:42 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:54:42 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:54:42 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:54:42 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:54:42 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:54:42 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:54:42 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:54:42 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:55:03 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:55:03 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:55:03 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:55:03 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:55:03 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:55:03 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:55:03 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:55:03 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:55:03 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:55:03 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:55:24 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:55:24 PM	3024 (0x0BD0)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Client lookup reply: <ClientIDReply><Identification Unknown="0" DuplicateSMBIOS="0" DuplicateMACAddress="0" ItemKey="16779571" ServerName=""><Machine><ClientID/><NetbiosName/></Machine></Identification></ClientIDReply>
+	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+00:50:56:90:F5:92, 8AC01042-19A6-D797-9A71-91B156B192C2: Device is in the database.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Request using architecture 9.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Client boot action reply: <ClientIDReply><Identification Unknown="0" DuplicateSMBIOS="0" DuplicateMACAddress="0" ItemKey="16779571" ServerName=""><Machine><ClientID>GUID:0dfcfb13-7c34-4892-ab7f-47fd9084c340</ClientID><NetbiosName/></Machine></Identification><PXEBootAction LastPXEAdvertisementID="" LastPXEAdvertisementTime="" OfferID="AQ120189" OfferIDTime="6/9/2021 3:01:00 PM" PkgID="AQ100195" PackageVersion="" PackagePath="http://server.domain.com/SMS_DP_SMSPKG$/AQ1000C9" BootImageID="AQ1000C9" Mandatory="0"/></ClientIDReply>
+	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+00:50:56:90:F5:92, 8AC01042-19A6-D797-9A71-91B156B192C2: found optional advertisement AQ120189	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:55:24 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:55:45 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:55:45 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:55:45 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:55:45 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:55:45 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:55:45 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:55:45 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:55:45 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:55:45 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:55:45 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:56:06 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:56:06 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:56:06 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:56:06 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:56:06 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:56:06 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:56:06 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:56:06 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:56:06 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:56:06 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:56:27 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:56:27 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:56:27 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:56:27 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:56:27 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:56:27 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:56:27 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:56:27 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:56:27 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:56:27 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:56:48 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:56:48 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:56:48 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:56:48 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:56:48 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:56:48 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:56:48 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:56:48 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:56:48 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:56:48 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:57:30 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:57:30 PM	3024 (0x0BD0)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+Client lookup reply: <ClientIDReply><Identification Unknown="0" DuplicateSMBIOS="0" DuplicateMACAddress="0" ItemKey="16779571" ServerName=""><Machine><ClientID/><NetbiosName/></Machine></Identification></ClientIDReply>
+	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+00:50:56:90:F5:92, 8AC01042-19A6-D797-9A71-91B156B192C2: Device is in the database.	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:57:30 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:57:51 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:57:51 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:57:51 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:57:51 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:57:51 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:57:51 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:57:51 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:57:51 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:57:51 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:57:51 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:58:12 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:58:12 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:58:12 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:58:12 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:58:12 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:58:12 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:58:12 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:58:12 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:58:12 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:58:12 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:58:33 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:58:33 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:58:33 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:58:33 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:58:33 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:58:33 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:58:33 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:58:33 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:58:33 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:58:33 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:58:54 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:58:54 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:58:54 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:58:54 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:58:54 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:58:54 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:58:54 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:58:54 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:58:54 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:58:54 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:59:15 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:59:15 PM	3024 (0x0BD0)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:59:15 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:59:15 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:59:15 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:59:15 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:59:15 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:59:15 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:59:15 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:59:15 PM	3644 (0x0E3C)
+============> Received from client:	SMSPXE	7/23/2021 1:59:36 PM	3024 (0x0BD0)
+ Operation: BootRequest (1)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ Magic Cookie: 63538263
+ Options:
+  Type=93 Client Arch: EFI BC
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=53 Msg Type: 3=Request
+  Type=60 ClassId: PXEClient
+  Type=55 Param Request List: 3c8081828384858687
+  Type=250 0c01010d020800010200070e01010504000000d9ff	SMSPXE	7/23/2021 1:59:36 PM	3024 (0x0BD0)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+Client lookup reply: <ClientIDReply><Identification Unknown="0" DuplicateSMBIOS="0" DuplicateMACAddress="0" ItemKey="16779571" ServerName=""><Machine><ClientID/><NetbiosName/></Machine></Identification></ClientIDReply>
+	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+00:50:56:90:F5:92, 8AC01042-19A6-D797-9A71-91B156B192C2: Device is in the database.	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+Looking for bootImage AQ1000C9	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+Prioritizing local MP http://server.domain.com.	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+Using Management Point: http://server.domain.com	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+Not in SSL.	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+============> REQUEST Reply to client ([010.215.001.210:68]) Len:447	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+ Operation: BootReply (2)  Addr type: 1 Addr Len: 6 Hop Count: 0 ID: 0001E240
+ Sec Since Boot: 65535 Client IP: 010.215.001.210 Your IP: 000.000.000.000 Server IP: 010.000.050.086 Relay Agent IP: 000.000.000.000
+ Addr: 00:50:56:90:f5:92:
+ BootFile: smsboot\x64\bootmgfw.efi
+ Magic Cookie: 63538263
+ Options:
+  Type=53 Msg Type: 5=Ask
+  Type=54 Svr id: 010.000.050.086
+  Type=97 UUID: 004210c08aa61997d79a7191b156b192c2
+  Type=60 ClassId: PXEClient
+  Type=243 01515c534d5354656d705c323032312e30372e32332e30382e35362e34342e303032302e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e766172
+  Type=252 5c534d5354656d705c323032312e30372e32332e30382e35362e34332e32382e7b34323035313831342d434546332d344437362d413237332d4531413246464134314344397d2e626f6f742e62636400	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
+<============ REQUEST Reply (end)	SMSPXE	7/23/2021 1:59:36 PM	3644 (0x0E3C)
